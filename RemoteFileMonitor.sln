@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileMonitor", "FileMonitor\FileMonitor.csproj", "{20B3AA84-9CA7-43E5-B0CD-8DBA5091DF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileMonitorHook", "FileMonitorHook\FileMonitorHook.csproj", "{73B2C22B-C020-45B7-BF61-B48F49A2693F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DDHook", "DDHook\DDHook.vdproj", "{46201FDA-644B-4D99-91D1-C27E078D0F78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B3AA84-9CA7-43E5-B0CD-8DBA5091DF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B3AA84-9CA7-43E5-B0CD-8DBA5091DF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B3AA84-9CA7-43E5-B0CD-8DBA5091DF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B3AA84-9CA7-43E5-B0CD-8DBA5091DF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B2C22B-C020-45B7-BF61-B48F49A2693F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B2C22B-C020-45B7-BF61-B48F49A2693F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B2C22B-C020-45B7-BF61-B48F49A2693F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B2C22B-C020-45B7-BF61-B48F49A2693F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46201FDA-644B-4D99-91D1-C27E078D0F78}.Debug|Any CPU.ActiveCfg = Debug
+		{46201FDA-644B-4D99-91D1-C27E078D0F78}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2CE9FA0-A0A1-441D-BE1E-C801BA55DAB1}
+	EndGlobalSection
+EndGlobal
